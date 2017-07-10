@@ -22,5 +22,4 @@
         android:text="Clear"
         android:onClick="clear" />
 
-
 </android.support.constraint.ConstraintLayout>
