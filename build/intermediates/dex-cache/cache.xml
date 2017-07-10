@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\henri\.android\build-cache\d649d5fb609601a4ecfd2e0f7c6b6b4b660a31a0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\henri\AndroidStudioProjects\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2db02724f5a27f74260075840bb0c51b4c929cea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\henri\.android\build-cache\9ee277d05700c3704ef5c5e547eee576971467a6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\henri\AndroidStudioProjects\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_db79c4fd91f631e5c2f4fee6098092d01faae0d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\henri\.android\build-cache\70345cfad1af6913c8f35ffe40dbd8672e39d376\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\henri\AndroidStudioProjects\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7a55206e4981f779350409f16688f41d994848f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\henri\.android\build-cache\067fc22411d7a634ed9953da92246b4847c479a7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\henri\AndroidStudioProjects\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5e11da99a78f9cc7a53fbb019f1e6878495ad12c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\henri\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\henri\AndroidStudioProjects\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_a7c09325d92def7a30172b314b4460a1924a0a44\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\henri\.android\build-cache\6436b0eed21ea9b396b69deb7e41483e449017c6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\henri\AndroidStudioProjects\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5a44ba26311faff87bdde5fa0228916c8bdc276e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\henri\.android\build-cache\da0f23d4234aa592d7b7939c91ec4b8a92c78fa6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\henri\AndroidStudioProjects\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e905f3cb6a212ca3118df5c986b5f9965f54d6fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\henri\AndroidStudioProjects\HabitTracker\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Users\henri\AndroidStudioProjects\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_b7552061341c318a0742ad1176f07523cce3ae57\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\henri\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\henri\AndroidStudioProjects\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_6e7ca03da3198d7659344a425509ac9ec7b08ba9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\henri\.android\build-cache\957e4df9ddfd19417c890dbfe2bc974dcfd5b604\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\henri\AndroidStudioProjects\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_05cc934994ee8f82e3e19dd2cc7be5ebfd7ddaf3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\henri\.android\build-cache\d65622ddfd99e78cb4a11aeba99f33ed962f3d84\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\henri\AndroidStudioProjects\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ea02e2f80bf4e96a739c067c64c0fae620e31dca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\henri\AndroidStudioProjects\HabitTracker\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b186809f663c920542895cb6a25f4742aed630c1">
+        <dex dex="C:\Users\henri\AndroidStudioProjects\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_545f200ed801f4c54a72e1791b2a2835713e09ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\henri\.android\build-cache\1cb9a3655114130952e792a646171bc7771d300c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\henri\AndroidStudioProjects\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e0d18119ff222bdae93ff8b04eb7bdadc5cb10de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\henri\.android\build-cache\bfa274f3ec4146c706555980803373d95dfd38c3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\henri\AndroidStudioProjects\HabitTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1fbeb7c4a63f612b53cbedd3c4a439e7f808b028\classes.dex" />
+    </item>
+
+</items>
