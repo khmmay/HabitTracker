@@ -1,7 +1,6 @@
 package com.example.henrik.habittracker;
 
 import android.content.ContentValues;
-import android.content.Entity;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
@@ -22,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mDbHelper=new HabitDbHelper(this);
+        mDbHelper = new HabitDbHelper(this);
 
         insertHabit("Swimming", 5004, HabitEntry.GROUP_TOGETHER);
         insertHabit("Jogging", 5468, HabitEntry.GROUP_ALONE);
@@ -31,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         displayDatabaseInfo();
     }
 
-    private void insertHabit(String nameString, Integer totalInt, Integer groupInt){
+    private void insertHabit(String nameString, Integer totalInt, Integer groupInt) {
         ContentValues values = new ContentValues();
         values.put(HabitEntry.COLUMN_HABIT_NAME, nameString);
         values.put(HabitEntry.COLUMN_HABIT_TOTALTIME, totalInt);
@@ -39,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Create and/or open a database to read from it
         SQLiteDatabase db = mDbHelper.getWritableDatabase();
-        long newRowID= db.insert(HabitEntry.TABLE_NAME, null, values);
+        long newRowID = db.insert(HabitEntry.TABLE_NAME, null, values);
         if (newRowID == -1) {
             // If the row ID is -1, then there was an error with insertion.
             Toast.makeText(this, "Error with saving habit", Toast.LENGTH_SHORT).show();
@@ -49,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private void displayDatabaseInfo() {
+    private Cursor readIntoCursor() {
         // Create and/or open a database to read from it
         SQLiteDatabase db = mDbHelper.getReadableDatabase();
 
@@ -71,6 +70,13 @@ public class MainActivity extends AppCompatActivity {
                 null,                  // Don't group the rows
                 null,                  // Don't filter by row groups
                 null);                   // The sort order
+        return cursor;
+    }
+
+
+    private void displayDatabaseInfo() {
+
+        Cursor cursor = readIntoCursor();
         TextView displayView = (TextView) findViewById(R.id.output);
 
         try {
@@ -103,16 +109,11 @@ public class MainActivity extends AppCompatActivity {
         } finally {
             cursor.close();
         }
-
     }
 
-    public void clear(View v){
+    public void clear(View v) {
         SQLiteDatabase db = mDbHelper.getWritableDatabase();
         db.delete(HabitEntry.TABLE_NAME, null, null);
         displayDatabaseInfo();
     }
-
-
-
-
 }

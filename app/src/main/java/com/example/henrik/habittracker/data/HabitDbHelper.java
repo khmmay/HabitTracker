@@ -25,7 +25,7 @@ public class HabitDbHelper extends SQLiteOpenHelper {
     private static final String SQL_DELETE_ENTRIES =
             "DROP TABLE IF EXISTS " + HabitEntry.TABLE_NAME;
 
-    public HabitDbHelper(Context context){
+    public HabitDbHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 

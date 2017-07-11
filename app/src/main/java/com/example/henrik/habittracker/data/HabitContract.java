@@ -8,12 +8,13 @@ import android.provider.BaseColumns;
 
 public final class HabitContract {
 
-    private HabitContract(){}
+    private HabitContract() {
+    }
 
     public static class HabitEntry implements BaseColumns {
         public static final String TABLE_NAME = "habits";
 
-        public final static String _ID=BaseColumns._ID;
+        public final static String _ID = BaseColumns._ID;
         public static final String COLUMN_HABIT_NAME = "name";
         public static final String COLUMN_HABIT_TOTALTIME = "Totaltime";
         public static final String COLUMN_HABIT_GROUP = "Groupactivity";
